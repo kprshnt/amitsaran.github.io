@@ -339,7 +339,7 @@ p {
   font-size: 14px;
 }
 
-.support .php-email-form .validate {
+.support .email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -347,7 +347,7 @@ p {
   font-size: 13px;
 }
 
-.support .php-email-form .error-message {
+.support .email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -356,7 +356,7 @@ p {
   font-weight: 600;
 }
 
-.support .php-email-form .sent-message {
+.support .email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -365,14 +365,14 @@ p {
   font-weight: 600;
 }
 
-.support .php-email-form .loading {
+.support .email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.support .php-email-form .loading:before {
+.support .email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -385,13 +385,13 @@ p {
   animation: animate-loading 1s linear infinite;
 }
 
-.support .php-email-form input, .support .php-email-form textarea {
+.support .email-form input, .support .email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.support .php-email-form button[type="submit"] {
+.support .email-form button[type="submit"] {
   font-size: 20px;
   background: #fff;
   color: #3498db;
@@ -399,7 +399,7 @@ p {
   border: 1px solid #3498db;
 }
 
-.support .php-email-form button[type="submit"]:hover {
+.support .email-form button[type="submit"]:hover {
   background: #3498db;
   color: #fff;
 }
