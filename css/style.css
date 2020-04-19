@@ -22,7 +22,7 @@ p {
 }
 
 .company-logo a.brand {
-	color: #2487cd;	
+	color: orangered;	
 	font-size: 30px;
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-weight: 500;
@@ -173,8 +173,7 @@ p {
   color: #2487cd;
 }
 
-#carousel-slider 
-.carousel-control {
+#carousel-slider .carousel-control {
   width:inherit;
 }
 
@@ -186,10 +185,8 @@ p {
   right: 70px;
 }
 
-#carousel-slider
-.carousel-control.left, 
-#carousel-slider
-.carousel-control.right {
+#carousel-slider .carousel-control.left, 
+#carousel-slider .carousel-control.right {
   background: none;
 }
 
@@ -385,8 +382,9 @@ p {
   animation: animate-loading 1s linear infinite;
 }
 
-.support .email-form input, .support .email-form textarea {
-  border-radius: 0;
+.support .email-form input, 
+.support .email-form textarea {
+  border-radius: 5px;
   box-shadow: none;
   font-size: 14px;
 }
